@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>RB Octa - UI/UX designer & Front-End Developer</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+   <!-- email JS  -->
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "DlM1TGxC7PNFJdkC1",
+      });
+   })();
+</script>
+
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <!-- <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home"> --> RB<span>.</span>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#Home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#Services" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#Skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#Project" class="navbar-link">Project</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="Home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">RB Gonzales Octa</h1>
+
+            <p class="hero-subtitle">
+              UI/UX Designer & Front-End Developer
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero3.png" width="800" height="800" alt="Riboy Octa" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I’m Riboy Octa and I am ui/ux designer & front-end developer who dream making the world better place by
+              creating captivating products.
+            </p>
+
+            <a href="./assets/OCTA-(CV).pdf" class="btn has-before" download>
+              <span class="span">Download CV</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="Services" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Services That I Provide
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Services</h2>
+            </div>
+
+            <p class="section-text">
+              Discover a full spectrum of digital services tailored to fuel your online success. From web development and UI/UX design to logo creation, SEO marketing, and e-commerce solutions, we've got you covered. Elevate your brand and boost your business with our expert touch.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">
+                    We specialize in creating custom websites and web applications, prioritizing user experience and functionality to meet your specific needs.
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">UI/UX Design</h3>
+
+                  <p class="card-text">
+                    We create visually captivating interfaces that prioritize user experience and seamless interaction across all platforms.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Logo Design</h3>
+
+                  <p class="card-text">
+                    We specialize in crafting captivating logo designs that encapsulate your brand identity, leaving a lasting impression and enhancing brand recognition across various platforms.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">SEO Marketing</h3>
+
+                  <p class="card-text">
+                    We boost your online visibility and drive traffic through effective SEO marketing strategies, maximizing your business's growth potential.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">eCommerce</h3>
+
+                  <p class="card-text">
+                    We offer complete e-commerce solutions, enabling businesses to establish and manage online stores, facilitating seamless transactions and expanding their digital reach.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              
+
+              <!-- <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    Website ravida surna eveti semen the conse tusio anivite dianne one nivam acestion vue artin dictum.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li> -->
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+          <figure class="about-banner">
+            <img src="./assets/images/hero1.png" alt="A man in a alice blue shirt with a thinking expression"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Need a Creative Product? I can Help You!</p>
+
+            <h2 class="h2 section-title">About me</h2>
+
+            <p class="section-text">
+              Hi! I’m Riboy Gonzales Octa, and I’m a developer who has passion for building clean web applications with intuitive functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always curious about learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have worked with creative teams, which involves daily stand-ups and communications, source control, and project management.
+            </p>
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="Skills" aria-label="our skills">
+        <div class="container">
+          <div class="skills-content">
+
+            <p class="section-subtitle">What My Programming Skills Included?</p>
+  
+            <h2 class="h2 section-title">My skills</h2>
+  
+            <p class="section-text">
+              I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+              and time
+              with those technologies.
+            </p>
+  
+            <div class="skills-toggle" data-toggle-box>
+              <button class="toggle-btn active" data-toggle-btn>Skills</button>
+  
+              <button class="toggle-btn" data-toggle-btn>Tools</button>
+            </div>
+  
+          </div>
+  
+          <div class="skills-box" data-skills-box>
+  
+            <ul class="skills-list">
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">HTML5</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/html5.png" alt="HTML5 logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">CSS3</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/css3.png" alt="CSS3 logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">JavaScript</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Tailwind</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/tw.png" alt="TypeScript logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Bootstrap</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">React</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/react.png" alt="React logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">PHP</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/php.png" alt="Vue logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">MYSQL</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/sql.png" alt="Firebase logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">C++</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/c++.png" alt="PugJs logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Python</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/py.png" alt="SASS logo">
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Java</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/java.png" alt="SASS logo">
+                  </div>
+                </div>
+              </li>
+  
+            </ul>
+  
+            <ul class="tools-list">
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Figma</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/figma.png" alt="Ajax logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Canva</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/canva.png" alt="Gulp logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">WordPress</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/wp.png" alt="Webpack logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Elementor</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/elem.png" alt="Git logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Github</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/github.png" alt="Npm logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">Subline</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/sl.png" alt="Command Line logo">
+                  </div>
+                </div>
+              </li>
+  
+              <li>
+                <div class="skill-card">
+                  <div class="tooltip">VS Code</div>
+  
+                  <div class="card-icon">
+                    <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                  </div>
+                </div>
+              </li>
+  
+            </ul>
+  
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" id="Project" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Projects</h2>
+          </div>
+
+          <p class="section-text">
+            Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
+            velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
+            ornare.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/p1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Rb's Collection</h3>
+
+                  <p class="card-text">Discover style and comfort in our rubber shoes collection, featuring trendy sneakers, rugged hiking options, and eco-friendly choices.</p>
+                  
+                </div>
+
+                <a href="https://rb-octa.github.io/Rb_Collection/" target="_blank" class="layer-link"></a> 
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/p2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Forty Winks</h3>
+
+                  <p class="card-text">Forty Winks Online Shop find wide selection of beds, bedding, bedroom furniture, bed accessories, children's furniture and mattresses.</p>
+                </div>
+
+                <a href="https://fortywinks.com.ph/"  target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/p3.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Weathertech</h3>
+
+                  <p class="card-text">WEATHERTECH Refrigeration & Airconditioning Company is a firm with extensive exposure to HVAC & R applications.</p>
+                </div>
+
+                <a href="https://www.weathertech.ph/" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/p4.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Surprise Website</h3>
+
+                  <p class="card-text">Surprising loved ones for birthdays, graduations, and showing appreciation.</p>
+                </div>
+
+                <a href="https://rb-octa.github.io/Surprise-gift.github.io/" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/p5.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">8New Found Land Transport Services</h3>
+
+                  <p class="card-text">Are you looking for reliable and efficient transport services to meet your logistics needs?</p>
+                </div>
+
+                <a href="https://nfl-intern.github.io/8newfoundland.io/" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/p6.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">New Found Land Manpower Services</h3>
+
+                  <p class="card-text">Experience a new level of workforce excellence with our premier manpower services! Elevate your team, enhance productivity, and achieve your goals with our trusted manpower solutions.</p>
+                </div>
+
+                <a href="https://nfl-intern.github.io/newfoundland.io/" target="_blank" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-content">
+
+            <p class="section-subtitle">Have You Any Project? Please Drop a Message</p>
+
+            <h2 class="h2 section-title">Contact Me</h2>
+
+            <p class="section-text">
+              Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+            </p>
+
+            <ul class="contact-list">
+
+              <!-- <li class="contact-list-item">
+
+                <div class="contact-item-icon">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+
+                <div class="wrapper">
+                  <h3 class="h4 contact-item-title">Address:</h3>
+
+                  <address class="contact-info">
+                    941 Saqrqorish Road, alandalos, grnata, wa 47122-4194
+                  </address>
+                </div>
+
+              </li> -->
+
+              <li class="contact-list-item">
+
+                <div class="contact-item-icon">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <div class="wrapper">
+                  <h3 class="h4 contact-item-title">Phone:</h3>
+
+                  <a href="tel:09934029267" class="contact-info">+63 993 402 9267 </a>
+
+                  <a href="tel:09563282022" class="contact-info">+63 956 328 2022</a>
+                </div>
+
+              </li>
+
+              <li class="contact-list-item">
+
+                <div class="contact-item-icon">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+
+                <div class="wrapper">
+                  <h3 class="h4 contact-item-title">Email:</h3>
+
+                  <a href="mailto:riboyocta01@gmail.com" class="contact-info">riboyocta01@gmail.com</a>
+
+                  <a href="mailto:riboy.octa@cvsu.edu.ph" class="contact-info">riboy.octa@cvsu.edu.ph</a>
+                </div>
+
+              </li>
+
+              <li>
+                <ul class="contac-social-list">
+
+                  <li>
+                    <a href="https://www.facebook.com/riboy.octa" target="_blank" class="contact-social-link">
+                      <div class="tooltip">Facebook</div>
+
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRnXfFLKrBzKmNRTbMfbsZzWsFSmbcnlXHHFZFFNFxRMXXlLtWmzNPFtldxZPXSNXTlxcNQ" target="_blank" class="contact-social-link">
+                      <div class="tooltip">Instagram</div>
+
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="https://www.linkedin.com/in/riboy-octa-375989268?trk=contact-info&fbclid=IwAR0hSf7Mhx6DKv0ei2UO299nnuCt3EIhDUxDnlJxXv3qQPK-XCek7CgSJCw" target="_blank" class="contact-social-link">
+                      <div class="tooltip">Linkedin</div>
+
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="contact-social-link">
+                      <div class="tooltip">Youtube</div>
+
+                      <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <form action="" class="contact-form">
+
+            <div class="form-wrapper">
+
+              <label for="name" class="form-label">Name</label>
+
+              <div class="input-wrapper">
+
+                <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field name">
+
+                <ion-icon name="person-circle"></ion-icon>
+
+              </div>
+
+            </div>
+
+            <div class="form-wrapper">
+
+              <label for="email" class="form-label">Email</label>
+
+              <div class="input-wrapper">
+
+                <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                  class="input-field email">
+
+                <ion-icon name="mail"></ion-icon>
+
+              </div>
+
+            </div>
+
+            <div class="form-wrapper">
+
+              <label for="phone" class="form-label">Phone</label>
+
+              <div class="input-wrapper">
+
+                <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field phone">
+
+                <ion-icon name="call"></ion-icon>
+
+              </div>
+
+            </div>
+
+            <div class="form-wrapper">
+
+              <label for="message" class="form-label">Message</label>
+
+              <div class="input-wrapper">
+
+                <textarea name="message" id="msg" placeholder="Write message..."
+                  class="input-field msg"></textarea>
+
+                <ion-icon name="chatbubbles"></ion-icon>
+
+              </div>
+
+            </div>
+
+            <button type="submit" class="btn1 btn-primary" onclick="sendMail()">Send</button>
+
+          </form>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:riboyocta01@gmail.com" class="footer-link">riboyocta01@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Cavite Philippines</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-skype"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- !--
+  smtpjs
+  --! -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
