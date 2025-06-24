@@ -306,6 +306,14 @@ section { padding-block: var(--section-padding); }
   transition: transform var(--cubic-ease-out);
 }
 
+.slider-container1 {
+  position: relative;
+  display: flex;
+  gap: var(--item-gap);
+  transition: transform var(--cubic-ease-out);
+  /* margin: 0 10% 0 10%; */
+}
+
 .slider-item {
   --total-gap: calc(var(--item-gap) * (var(--slider-items) - 1));
   --item-width: calc((100% / var(--slider-items)) - (var(--total-gap) / var(--slider-items)));
@@ -1047,7 +1055,7 @@ textarea.input-field {
   .hero-banner {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: -20px;
     transform: translateY(-50%);
     width: 55%;
     z-index: -1;
