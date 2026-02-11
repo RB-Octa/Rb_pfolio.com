@@ -802,60 +802,6 @@ section { padding-block: var(--section-padding); }
   #PORTFOLIO
 \*-----------------------------------*/
 
-.portfolio .section-title { margin-block-end: 18px; }
-
-.portfolio .section-text { margin-block-end: 80px; }
-
-.portfolio-list {
-  display: grid;
-  gap: 60px;
-}
-
-.portfolio-card {
-  background-color: var(--independence);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 120px 20px;
-  border-radius: var(--radius-20);
-  font-family: var(--ff-barlow);
-  color: var(--white);
-  font-weight: var(--fw-600);
-  transition: var(--transition-2);
-}
-
-.portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
-
-.portfolio-card .card-subtitle {
-  color: var(--orange-soda);
-  margin-block-end: 5px;
-}
-
-.portfolio-card .card-title {
-  max-width: 20ch;
-  margin-block-end: 20px;
-}
-
-.portfolio-card .btn-link {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-size: var(--fs-6);
-  text-transform: uppercase;
-}
-
-.portfolio-card .btn-link ion-icon {
-  color: var(--orange-soda);
-  font-size: 1.6rem;
-}
-
-
-
-
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
-
 .portfolioD .section-title { margin-block-end: 18px; }
 
 .portfolioD .section-text { margin-block-end: 80px; }
@@ -878,7 +824,7 @@ section { padding-block: var(--section-padding); }
   transition: var(--transition-2);
 }
 
-.portfolioD-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
+.portfolioD-list > li:nth-child(even) .card-contentD { margin-inline-start: auto; }
 
 .portfolioD-card .card-subtitle {
   color: var(--orange-soda);
@@ -902,7 +848,6 @@ section { padding-block: var(--section-padding); }
   color: var(--orange-soda);
   font-size: 1.6rem;
 }
-
 
 
 
@@ -1106,7 +1051,7 @@ textarea.input-field {
    * PORTFOLIO
    */
 
-   .portfolioD-list li:nth-child(even) .card-content { margin-inline-start: 50%; }
+   .portfolioD-list li:nth-child(even) .card-contentD { margin-inline-start: 50%; }
 
   /**
    * FOOTER
